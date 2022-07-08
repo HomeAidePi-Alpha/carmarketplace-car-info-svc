@@ -1,8 +1,8 @@
-package com.geekymon2.carmarketplace.carinfoservice.validation;
+package com.homeaidepi.carmarketplace.carinfoservice.validation;
 
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarModelType;
-import com.geekymon2.carmarketplace.core.entities.CarMakeName;
-import com.geekymon2.carmarketplace.core.exception.InvalidParameterException;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarModelType;
+import com.homeaidepi.carmarketplace.core.entities.CarMakeName;
+import com.homeaidepi.carmarketplace.core.exception.InvalidParameterException;
 
 public class CarInfoValidator {
 

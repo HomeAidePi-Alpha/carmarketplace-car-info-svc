@@ -1,6 +1,6 @@
-package com.geekymon2.carmarketplace.carinfoservice.repository;
+package com.homeaidepi.carmarketplace.carinfoservice.repository;
 
-import com.geekymon2.carmarketplace.core.entities.CarMakeName;
+import com.homeaidepi.carmarketplace.core.entities.CarMakeName;
 import org.springframework.data.repository.NoRepositoryBean;
 import org.springframework.data.repository.Repository;
 

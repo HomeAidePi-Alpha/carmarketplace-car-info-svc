@@ -1,10 +1,10 @@
-package com.geekymon2.carmarketplace.carinfoservice.repository;
+package com.homeaidepi.carmarketplace.carinfoservice.repository;
 
 import java.util.List;
 
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarModel;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarModel;
 
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarModelType;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarModelType;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;

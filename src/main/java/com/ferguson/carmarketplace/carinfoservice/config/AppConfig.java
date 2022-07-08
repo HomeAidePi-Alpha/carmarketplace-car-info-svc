@@ -1,6 +1,6 @@
-package com.geekymon2.carmarketplace.carinfoservice.config;
+package com.homeaidepi.carmarketplace.carinfoservice.config;
 
-import com.geekymon2.carmarketplace.carinfoservice.validation.CarInfoValidator;
+import com.homeaidepi.carmarketplace.carinfoservice.validation.CarInfoValidator;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

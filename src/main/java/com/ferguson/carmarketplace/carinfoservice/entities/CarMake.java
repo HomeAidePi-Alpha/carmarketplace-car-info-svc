@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.carinfoservice.entities;
+package com.homeaidepi.carmarketplace.carinfoservice.entities;
 
 import java.util.Set;
 
@@ -11,7 +11,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import com.geekymon2.carmarketplace.core.entities.CarMakeName;
+import com.homeaidepi.carmarketplace.core.entities.CarMakeName;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

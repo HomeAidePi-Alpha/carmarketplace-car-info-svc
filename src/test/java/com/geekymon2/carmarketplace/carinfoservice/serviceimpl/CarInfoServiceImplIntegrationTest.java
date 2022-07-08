@@ -1,12 +1,12 @@
-package com.geekymon2.carmarketplace.carinfoservice.serviceimpl;
+package com.homeaidepi.carmarketplace.carinfoservice.serviceimpl;
 
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarMake;
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarModel;
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarModelType;
-import com.geekymon2.carmarketplace.carinfoservice.repository.CarMakeRepository;
-import com.geekymon2.carmarketplace.carinfoservice.repository.CarModelRepository;
-import com.geekymon2.carmarketplace.carinfoservice.validation.CarInfoValidator;
-import com.geekymon2.carmarketplace.core.entities.CarMakeName;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarMake;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarModel;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarModelType;
+import com.homeaidepi.carmarketplace.carinfoservice.repository.CarMakeRepository;
+import com.homeaidepi.carmarketplace.carinfoservice.repository.CarModelRepository;
+import com.homeaidepi.carmarketplace.carinfoservice.validation.CarInfoValidator;
+import com.homeaidepi.carmarketplace.core.entities.CarMakeName;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

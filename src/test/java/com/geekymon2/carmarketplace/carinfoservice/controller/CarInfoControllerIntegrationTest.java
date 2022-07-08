@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.carinfoservice.controller;
+package com.homeaidepi.carmarketplace.carinfoservice.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -11,12 +11,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarModelType;
-import com.geekymon2.carmarketplace.carinfoservice.models.CarMakeDto;
-import com.geekymon2.carmarketplace.carinfoservice.models.CarModelDto;
-import com.geekymon2.carmarketplace.carinfoservice.serviceimpl.CarInfoServiceImpl;
-import com.geekymon2.carmarketplace.core.exception.InvalidParameterException;
-import com.geekymon2.carmarketplace.core.exception.RecordNotFoundException;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarModelType;
+import com.homeaidepi.carmarketplace.carinfoservice.models.CarMakeDto;
+import com.homeaidepi.carmarketplace.carinfoservice.models.CarModelDto;
+import com.homeaidepi.carmarketplace.carinfoservice.serviceimpl.CarInfoServiceImpl;
+import com.homeaidepi.carmarketplace.core.exception.InvalidParameterException;
+import com.homeaidepi.carmarketplace.core.exception.RecordNotFoundException;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

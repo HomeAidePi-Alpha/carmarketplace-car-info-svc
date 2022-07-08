@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.carinfoservice.config;
+package com.homeaidepi.carmarketplace.carinfoservice.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

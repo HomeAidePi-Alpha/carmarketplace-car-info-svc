@@ -1,8 +1,8 @@
-package com.geekymon2.carmarketplace.carinfoservice.service;
+package com.homeaidepi.carmarketplace.carinfoservice.service;
 
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarMake;
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarModel;
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarModelType;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarMake;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarModel;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarModelType;
 
 import java.util.List;
 

@@ -41,7 +41,7 @@ fi
 echo "- Stopping containers"
 docker-compose -f "docker-compose.yml" stop
 echo "- Pull the latest docker image"
-docker pull "geekymon2/$IMAGE_NAME"
+docker pull "homeaidepi/$IMAGE_NAME"
 echo "- Starting Container"
 docker-compose -f "docker-compose.yml" up -d
 echo "- Deployment Complete."

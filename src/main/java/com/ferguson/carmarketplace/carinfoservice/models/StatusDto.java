@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.carinfoservice.models;
+package com.homeaidepi.carmarketplace.carinfoservice.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

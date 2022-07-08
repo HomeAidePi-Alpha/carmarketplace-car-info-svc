@@ -1,12 +1,12 @@
-package com.geekymon2.carmarketplace.carinfoservice.controller;
+package com.homeaidepi.carmarketplace.carinfoservice.controller;
 
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarMake;
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarModel;
-import com.geekymon2.carmarketplace.carinfoservice.entities.CarModelType;
-import com.geekymon2.carmarketplace.carinfoservice.models.CarMakeDto;
-import com.geekymon2.carmarketplace.carinfoservice.models.CarModelDto;
-import com.geekymon2.carmarketplace.carinfoservice.models.StatusDto;
-import com.geekymon2.carmarketplace.carinfoservice.serviceimpl.CarInfoServiceImpl;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarMake;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarModel;
+import com.homeaidepi.carmarketplace.carinfoservice.entities.CarModelType;
+import com.homeaidepi.carmarketplace.carinfoservice.models.CarMakeDto;
+import com.homeaidepi.carmarketplace.carinfoservice.models.CarModelDto;
+import com.homeaidepi.carmarketplace.carinfoservice.models.StatusDto;
+import com.homeaidepi.carmarketplace.carinfoservice.serviceimpl.CarInfoServiceImpl;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

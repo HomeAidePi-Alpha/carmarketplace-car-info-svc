@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.carinfoservice;
+package com.homeaidepi.carmarketplace.carinfoservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

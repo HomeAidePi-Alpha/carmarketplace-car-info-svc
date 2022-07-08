@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.carinfoservice.entities;
+package com.homeaidepi.carmarketplace.carinfoservice.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;

@@ -10,7 +10,7 @@ jobs:
     - name: checkout root
       uses: actions/checkout@v2
       with:
-        repository: geekymon2/carmarketplace
+        repository: homeaidepi/carmarketplace
         path: root    
     - name: checkout service
       uses: actions/checkout@v2 
