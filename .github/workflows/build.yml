@@ -18,13 +18,6 @@ jobs:
         token: ${{secrets.github_token}}  
     - name: checkout root  
       uses: actions/checkout@v2
-      with:
-        repository: geekymon2/carmarketplace
-        path: root
-    - name: checkout service
-      uses: actions/checkout@v2     
-      with:
-        path: service
     - name: read docker properties
       uses: madhead/read-java-properties@latest
       id: docker
@@ -60,8 +53,8 @@ jobs:
         context: ./service
         push: true
         tags: |
-          geekymon2/${{ steps.docker.outputs.IMAGE_NAME }}:${{ steps.docker.outputs.MAJOR_VERSION }}.${{ steps.docker.outputs.MINOR_VERSION }}.${{ steps.buildnumber.outputs.build_number }}
-          geekymon2/${{ steps.docker.outputs.IMAGE_NAME }}:latest
+          homeaidepi/${{ steps.docker.outputs.IMAGE_NAME }}:${{ steps.docker.outputs.MAJOR_VERSION }}.${{ steps.docker.outputs.MINOR_VERSION }}.${{ steps.buildnumber.outputs.build_number }}
+          homeaidepi/${{ steps.docker.outputs.IMAGE_NAME }}:latest
         labels: ${{ steps.meta.outputs.labels }}
         build-args: |
           ARTIFACT_NAME=${{ steps.docker.outputs.ARTIFACT_NAME }}
@@ -71,5 +64,5 @@ jobs:
       env:
         DOCKERHUB_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKERHUB_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-        DOCKERHUB_REPOSITORY: geekymon2/${{ steps.docker.outputs.IMAGE_NAME }}   
+        DOCKERHUB_REPOSITORY: homeaidepi/${{ steps.docker.outputs.IMAGE_NAME }}   
         README_FILEPATH: service/README.md
